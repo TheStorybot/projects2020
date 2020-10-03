@@ -1,0 +1,6 @@
+<nav>
+		<a href="home page file name or url">HOME</a> |
+		<a href="about page file name or url">ABOUT</a> |
+		<a href="FAQs page file name or url">FAQs</a> |
+		<a href="contact page file name or url">CONTACT US</a>
+	</nav>
