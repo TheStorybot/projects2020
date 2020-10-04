@@ -1,0 +1,16 @@
+p {
+	color: aqua;
+	text-align: center;
+	}
+	
+
+	.font_1 {
+		background-color: black;
+		color: yellow;
+		font-size: large;
+	}
+	.font_2 {
+		background-color: darkblue;
+		color: white;
+		font-size: medium
+	}

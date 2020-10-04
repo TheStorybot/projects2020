@@ -1,0 +1,17 @@
+table {
+	border: 3px solid silver;
+}
+
+td:hover {
+	background-color: aqua;
+	color: black;
+}
+tr, th {
+	background-color: red;
+	color: cornsilk;
+}
+
+tr, td {
+	background-color: cornsilk;
+	color: black;
+}
