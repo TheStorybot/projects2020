@@ -1,0 +1,219 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    background: url(../images/Factory/pic6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1ce948;
+    text-shadow: 2px 2px 7px black);
+    display: inline;
+    border-radius: 10px;
+}
+
+h2, h3, h4, h5 {
+    text-align: center; 
+}
+
+
+nav, footer {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.navbar {
+    height: 100px;
+    max-height: 340px;
+}
+
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    color: #f00;
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-container {
+    max-height: 300px;
+    margin: 0% auto;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(16, 240, 240);
+    overflow: hidden;
+}
+
+.menu-container a {
+    float: left;
+    color: #f509ba;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.menu-container a:hover {
+    background-color: rgb(245, 9, 9);
+    color: black;
+  }
+
+
+
+#home {
+    background: url(../images/Factory/pic6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: rgb(9, 10, 1);
+}
+
+.head-main {
+    text-shadow: 2px 3px 1px black;
+    text-transform: capitalize;
+    word-spacing: 21pt;
+    font-size: 2cm;
+    text-align: center;
+    line-height: 1;
+    font-weight: 900;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.head-sub-main {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 20px 10px 20px;
+    text-decoration: dashed;
+    text-shadow: .5px 1px 5px rebeccapurple;
+    margin-top: 300px;
+}
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2cm;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px 0 rgba(red, green, blue, 0.7);
+}
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 290px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: rgb(147, 52, 236);
+    box-shadow: 3px 3px 10px black;
+}
+
+section {
+    background: url(../images/Factory/pic6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+
+.video {
+    text-align: center;
+    margin: 15px auto;
+    width: 560px;
+    height: 400px;
+}
+
+.video iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+}
+
+.
+
+#footer {
+    background-color: rgba(0, 55, 100, 0.3);
+    color: #000;
+    text-shadow: 2px 2px 8px black;
+    padding: 9px 50px 20px 50px;
+    text-align: right;
+}
+
+.entry form {
+    width: 70%;
+    padding: 2%;
+    margin: 2% auto;
+    border: 2px solid orange;
+    border-radius: 7px;
+    background: rgb(116, 114, 114);
+}
+
+input {
+    margin: 5px;
+    width: 200px;
+    border: 13px rgb(247, 10, 227);
+    border-radius: 8px;
+}
