@@ -1,0 +1,102 @@
+.navbar {
+    overflow: hidden;
+    background-color: chocolate;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: line-through;
+}
+
+.navbar a:hover {
+    background: brown;
+    color: azure;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+    filter: blur(1px);
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.overlay {
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    background-color: aquamarine;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    width: 50%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: aqua;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.row {
+    display: flex;
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+
+<img src="../images/sword.jpg" alt="Sword" class="center">
