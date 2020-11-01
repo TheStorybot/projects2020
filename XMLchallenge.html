@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            var Solar_Array = "<solar>"+
+            "<owner>Alex Alexson</owner>"+
+            "<location>Dallas, OR</location>"+
+            "<panelcount>54</panelcount>"+
+            "<power>10kW/hr</power>"+
+            "</solar>";
+
+            XML_Parser = new DOMParser();
+
+            XML_Document = XML_Parser.parseFromString(Solar_Array, "text/xml");
+
+            document.getElementById("XML_Example").innerHTML = XML_Document.getElementsByTagName('power')[0].childNodes[0].nodeValue;
+
+        </script>
+    </body>
+</html>
